@@ -1,0 +1,5 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.snake.common.service.util.SpringContextUtil,\
+  com.snake.common.service.util.EnvironmentUtil,\
+  com.snake.common.service.config.MybatisConfiguration,\
+  com.snake.common.service.event.DomainEventPublisherImpl

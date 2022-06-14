@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.snake.common.rpc.config.feign.FeignConfiguration,\
+  com.snake.common.rpc.config.hystrix.HystrixConfiguration,\
+  com.snake.common.rpc.config.RpcConfiguration

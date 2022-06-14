@@ -1,0 +1,5 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.snake.common.interaction.config.SwaggerConfig,\
+  com.snake.common.interaction.config.AddTraceIdResponseBodyAdvice,\
+  com.snake.common.interaction.config.CommonJacksonConfig,\
+  com.snake.common.interaction.errors.SpringMessageSourceErrorMessageSource
