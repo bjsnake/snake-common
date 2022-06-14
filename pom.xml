@@ -101,6 +101,11 @@
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-deploy-plugin</artifactId>
+                <version>2.8.2</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-source-plugin</artifactId>
                 <version>3.2.1</version>
                 <executions>
@@ -115,6 +120,17 @@
         </plugins>
     </build>
 
+    <distributionManagement>
+        <repository>
+            <id>rdc-releases</id>
+            <url>https://packages.aliyun.com/maven/repository/2134526-release-dxgwZb/</url>
+        </repository>
+
+        <snapshotRepository>
+            <id>rdc-snapshots</id>
+            <url>https://packages.aliyun.com/maven/repository/2134526-snapshot-XFnNp7/</url>
+        </snapshotRepository>
+    </distributionManagement>
     <!-- 工程基础jar包推送至自己或者公司仓库，业务系统进行依赖
     <distributionManagement>
         <repository>
