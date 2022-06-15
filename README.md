@@ -71,7 +71,7 @@ ORM框架 | mybytis-plus
 ```
 <parent>
     <groupId>com.snake</groupId>
-    <artifactId>common</artifactId>
+    <artifactId>snake-common</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <relativePath/>
 </parent>
@@ -84,7 +84,7 @@ ORM框架 | mybytis-plus
     <dependencies>
         <dependency>
             <groupId>com.snake</groupId>
-            <artifactId>common-dependency</artifactId>
+            <artifactId>snake-common-dependency</artifactId>
             <version>${project.version}</version>
             <type>pom</type>
             <scope>import</scope>
