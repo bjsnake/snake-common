@@ -36,8 +36,6 @@
 
     <properties>
         <revision>0.0.1-SNAPSHOT</revision>
-        <module.version>0.0.1-SNAPSHOT</module.version>
-        <snake-common-dependency.version>0.0.1-SNAPSHOT</snake-common-dependency.version>
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
