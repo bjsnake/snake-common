@@ -7,13 +7,13 @@
     <parent>
         <groupId>com.snake</groupId>
         <artifactId>snake-common</artifactId>
-        <version>${reversion}</version>
+        <version>${revision}</version>
     </parent>
 
     <groupId>com.snake</groupId>
     <artifactId>snake-common-base</artifactId>
     <packaging>jar</packaging>
-    <version>${module.version}</version>
+    <version>${revision}</version>
 
     <dependencies>
         <dependency>
