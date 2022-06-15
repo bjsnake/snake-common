@@ -9,7 +9,9 @@
         <version>${reversion}</version>
     </parent>
 
+    <groupId>com.snake</groupId>
     <artifactId>snake-common-api</artifactId>
+    <version>${module.version}</version>
 
     <dependencies>
         <dependency>

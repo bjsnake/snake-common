@@ -9,7 +9,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+    <groupId>com.snake</groupId>
     <artifactId>snake-common-start</artifactId>
+    <version>${module.version}</version>
+    <packaging>jar</packaging>
 
     <dependencies>
         <dependency>

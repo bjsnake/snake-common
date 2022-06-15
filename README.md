@@ -136,6 +136,6 @@ common:
 - deploy到私服仓库
 
 ```
-mvn clean install org.apache.maven.plugins:maven-deploy-plugin:2.8:deploy -DskipTests
+mvn clean install org.apache.maven.plugins:maven-deploy-plugin:2.8:deploy -DskipTests --settings /Users/snake/.m2/settings-ali.xml
 
 ```

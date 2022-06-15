@@ -10,9 +10,10 @@
         <version>${reversion}</version>
     </parent>
 
+    <groupId>com.snake</groupId>
     <artifactId>snake-common-base</artifactId>
     <packaging>jar</packaging>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>${module.version}</version>
 
     <dependencies>
         <dependency>
