@@ -96,5 +96,9 @@ public class Result<T> extends BaseResult {
         return new Result<>(CODE_SYSTEM_ERROR, throwable.getMessage(), null);
     }
 
+    public static Result<Object> authError(Integer code,String errorCode,String message) {
+        return new Result<>(code, errorCode, message, null);
+    }
+
 }
 
