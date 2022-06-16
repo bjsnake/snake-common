@@ -5,14 +5,14 @@
     <parent>
         <groupId>com.snake</groupId>
         <artifactId>snake-common</artifactId>
-        <version>${revision}</version>
+        <version>1.0.0.RELEASE</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.snake</groupId>
     <artifactId>snake-common-service</artifactId>
-    <version>${revision}</version>
     <packaging>jar</packaging>
+    <version>1.0.0.RELEASE</version>
+
     <dependencies>
         <dependency>
             <groupId>com.snake</groupId>
