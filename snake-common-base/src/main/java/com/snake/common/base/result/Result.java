@@ -36,11 +36,11 @@ public class Result<T> extends BaseResult {
         return CODE_SYSTEM_ERROR.equals(getCode());
     }
 
-    public static Result<Object> ok() {
+    public static <T> Result<T> ok() {
         return new Result<>(CODE_SUCCESS, "", null);
     }
 
-    public static Result<Object> ok(String message) {
+    public static <T> Result<T> ok(String message) {
         return new Result<>(CODE_SUCCESS, message, null);
     }
 
@@ -52,20 +52,20 @@ public class Result<T> extends BaseResult {
         return new Result<>(CODE_SUCCESS, message, data);
     }
 
-    public static Result<Object> error(Integer code, String message) {
+    public static <T> Result<T> error(Integer code, String message) {
         return new Result<>(code, message, null);
     }
 
-    public static Result<Object> error(Integer code, String errorCode, String message) {
+    public static <T> Result<T> error(Integer code, String errorCode, String message) {
         return new Result<>(code, errorCode, message, null);
     }
 
-    public static Result<Object> error(Integer code, String message, Object data) {
-        return new Result<>(code, message, data);
+    public static <T> Result<T> error(Integer code, String message, T data) {
+        return new Result<T>(code, message, data);
     }
 
-    public static Result<Object> error(Integer code, String errorCode, String message, Object data) {
-        return new Result<>(code, errorCode, message, data);
+    public static <T> Result<T> error(Integer code, String errorCode, String message, T data) {
+        return new Result<T>(code, errorCode, message, data);
     }
 
     public static Result<Object> clientError() {
